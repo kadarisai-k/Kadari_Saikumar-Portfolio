@@ -6,7 +6,7 @@ const WORDS = ['Full Stack Developer', 'Frontend Engineer', 'Angular Developer',
 // Until then, a placeholder with your initials is shown.
 let profileImg = null
 try {
-  profileImg = new URL('../assets/profile.jpg', import.meta.url).href
+  profileImg = new URL('../assets/profile.png', import.meta.url).href
 } catch {
   profileImg = null
 }
